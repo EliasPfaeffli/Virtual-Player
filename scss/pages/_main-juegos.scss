@@ -1,1 +1,51 @@
 /* Main juegos*/
+main{
+    div{
+        .juegosUn{
+            font-size: 3.125rem;
+            text-align: center;
+            background-color: $color-primario;
+            margin: 1.875rem 12.5rem 1.875rem 12.5rem;
+            border-radius: 3.125rem;
+            font-weight: bold;
+            color: $color-letras;
+            .imgJugador{
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+                width: 80%;
+                margin: 0 auto;
+                img{
+                    border-radius: .9375rem;
+                    height: 9.375rem;
+                    width: auto;
+                    margin: .625rem 0rem .625rem 0rem;
+                    box-shadow: 10px 5px 5px black;
+                }
+            }
+        }
+    div{
+        .juegosDos{
+            font-size: 3.125rem;
+            text-align: center;
+            background-color: #0F1142;
+            margin: 1.875rem 12.5rem 1.875rem 12.5rem;
+            border-radius: 3.125rem;
+            font-weight: bold;
+            color: rgb(171, 168, 168);
+            .imgJugadores{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                width: 80%;
+                margin: 0 auto;
+                img{
+                    border-radius: .9375rem;
+                    height: 9.375rem;
+                    width: auto;
+                    margin: .625rem 0rem .625rem 0rem;
+                    box-shadow: 10px 5px 5px black;
+                }
+            }
+        }
+    }
+    }
+}

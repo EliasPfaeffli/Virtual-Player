@@ -103,7 +103,7 @@ main a .wsp {
   right: 1.25rem;
 }
 
-/* Main Faq*/
+/* Main Faq */
 main .faq {
   background-color: #0F1142;
   text-align: center;
@@ -120,6 +120,49 @@ main .faq article h2 h3 {
 }
 
 /* Main juegos*/
+main div .juegosUn {
+  font-size: 3.125rem;
+  text-align: center;
+  background-color: #0F1142;
+  margin: 1.875rem 12.5rem 1.875rem 12.5rem;
+  border-radius: 3.125rem;
+  font-weight: bold;
+  color: rgb(171, 168, 168);
+}
+main div .juegosUn .imgJugador {
+  width: 80%;
+  margin: 0 auto;
+}
+main div .juegosUn .imgJugador img {
+  border-radius: 0.9375rem;
+  height: 9.375rem;
+  width: auto;
+  margin: 0.625rem 0rem 0.625rem 0rem;
+  box-shadow: 10px 5px 5px black;
+}
+main div div .juegosDos {
+  font-size: 3.125rem;
+  text-align: center;
+  background-color: #0F1142;
+  margin: 1.875rem 12.5rem 1.875rem 12.5rem;
+  border-radius: 3.125rem;
+  font-weight: bold;
+  color: rgb(171, 168, 168);
+}
+main div div .juegosDos .imgJugadores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+main div div .juegosDos .imgJugadores img {
+  border-radius: 0.9375rem;
+  height: 9.375rem;
+  width: auto;
+  margin: 0.625rem 0rem 0.625rem 0rem;
+  box-shadow: 10px 5px 5px black;
+}
+
 /* Main precios */
 main .precio {
   text-align: center;
