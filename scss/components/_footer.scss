@@ -1,0 +1,26 @@
+/* Footer */
+footer{
+    background-color: $color-primario;
+    padding-top: 1.25rem;
+    padding-bottom: .3125rem;
+    div{
+        section{
+            a{
+                text-decoration: none;
+                .instagram{
+                    height: 1.875rem;
+                }
+            }
+                .facebook{
+                    height: 1.875rem;
+                }
+                .tiktok{
+                    height: 1.875rem;
+                }
+                .google-maps{
+                    height: 1.875rem;
+                }
+            
+        }
+    }
+}

@@ -1,0 +1,15 @@
+/*Imagen fondo*/
+body{
+    background-image: url(../assets/img/fondo-1.png);
+    background-size: cover;
+    font-family: Chillax;
+}
+/*Fonts*/
+@font-face {
+    font-family: Khand;
+    src: url(../assets/fonts/Khand-Regular.otf);
+}
+@font-face {
+    font-family: Chillax;
+    src: url(../assets/fonts/Chillax-Regular.otf);
+}

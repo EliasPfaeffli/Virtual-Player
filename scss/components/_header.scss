@@ -1,0 +1,17 @@
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-primario;
+        .logo-header{
+            height: 6.25rem;
+        }
+        nav{
+        font-family: Khand;
+            .nav-link{
+                color: $color-letras;
+                font-size: 1.25rem;
+            }
+    }
+
+}

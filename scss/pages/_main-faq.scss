@@ -1,0 +1,19 @@
+/* Main Faq*/
+main{
+    .faq{
+        background-color: $color-primario;
+        text-align: center;
+        margin:1.875rem 9.375rem 1.875rem 9.375rem;
+        border-radius: 3.125rem;
+        padding: .3125rem 0rem .3125rem 0rem;
+        color: $color-letras;
+        article{
+            h2{
+                font-size: 1.5625rem;
+                h3{
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}

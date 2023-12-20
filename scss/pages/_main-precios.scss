@@ -1,0 +1,22 @@
+/* Main precios */
+main{
+    .precio{
+        text-align: center;
+        margin: 1.875rem 6.25rem 0px 6.25rem;
+        color: $color-letras;
+        h3{
+            font-size: 2.1875rem;
+            background-color: $color-primario;
+            margin: 0rem 21.875rem 1.875rem 21.875rem;
+            border-radius: 3.125rem;
+            font-weight: bold;
+            padding: .3125rem 0rem .3125rem 0rem;
+        }
+        div{
+            background-color: $color-primario;
+            margin: 0px 21.875rem 1.875rem 21.875rem;
+            border-radius: 3.125rem;
+            padding:.0625rem 0rem.0625rem 0rem;
+        }
+    }
+}

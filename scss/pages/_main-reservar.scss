@@ -1,0 +1,107 @@
+/* Main reservar */
+main{
+    div{
+        div{
+            .reserva{
+                text-align: center;
+                background-color: $color-primario;
+                font-size: 1.5625rem;
+                margin: 1.875rem 29.6875rem 1.875rem 29.6875rem;
+                padding-top: .3125rem;
+                padding-bottom: .3125rem;
+                color: $color-letras;
+                border-radius: 3.125rem;
+                font-weight: bold;
+            }
+        }
+        .precioReserva{
+            text-align: center;
+            color: $color-letras;
+            background-color: $color-primario;
+            font-size: 1.25rem;
+            margin: 0rem 29.6875rem 1.875rem 29.6875rem;
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            border-radius: 3.125rem;
+        }
+        div{
+            .formulario{
+                display: flex;
+                color: $color-letras;
+                justify-content: center;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 2rem;
+                font-size: 1.5625rem;
+                div{
+                    div{
+                        .uno{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                    div{
+                        .dos{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                    div{
+                        .tres{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                    div{
+                        .cuatro{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                    div{
+                        .cinco{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                    div{
+                        .seis{
+                            background-color: #0F1142;
+                            border-radius: 50%;
+                            font-size: 25px;
+                            color: rgb(171, 168, 168);
+                            line-height: 2.5rem;
+                            text-align: center;
+                            width: 2.5rem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
