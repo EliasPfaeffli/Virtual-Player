@@ -3,21 +3,19 @@ main{
     div{
         div{
             .reserva{
+                @extend %estilos-base;
                 text-align: center;
-                background-color: $color-primario;
                 font-size: 1.5625rem;
                 margin: 1.875rem 29.6875rem 1.875rem 29.6875rem;
                 padding-top: .3125rem;
                 padding-bottom: .3125rem;
-                color: $color-letras;
                 border-radius: 3.125rem;
                 font-weight: bold;
             }
         }
         .precioReserva{
+            @extend %estilos-base;
             text-align: center;
-            color: $color-letras;
-            background-color: $color-primario;
             font-size: 1.25rem;
             margin: 0rem 29.6875rem 1.875rem 29.6875rem;
             padding-top: .3125rem;
@@ -26,9 +24,8 @@ main{
         }
         div{
             .formulario{
-                display: flex;
+                @include flex(column, center, center);
                 color: $color-letras;
-                justify-content: center;
                 width: 80%;
                 margin: auto;
                 margin-bottom: 2rem;
@@ -36,10 +33,9 @@ main{
                 div{
                     div{
                         .uno{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
@@ -47,10 +43,9 @@ main{
                     }
                     div{
                         .dos{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
@@ -58,10 +53,9 @@ main{
                     }
                     div{
                         .tres{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
@@ -69,10 +63,9 @@ main{
                     }
                     div{
                         .cuatro{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
@@ -80,10 +73,9 @@ main{
                     }
                     div{
                         .cinco{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
@@ -91,10 +83,9 @@ main{
                     }
                     div{
                         .seis{
-                            background-color: #0F1142;
+                            @extend %estilos-base;
                             border-radius: 50%;
                             font-size: 25px;
-                            color: rgb(171, 168, 168);
                             line-height: 2.5rem;
                             text-align: center;
                             width: 2.5rem; 
